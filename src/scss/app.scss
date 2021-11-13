@@ -1,0 +1,35 @@
+/*------------------------------
+    Import all scss partials
+-------------------------------*/
+
+// abstracts
+@import './_abstracts/variables';
+@import './_abstracts/functions';
+@import './_abstracts/mixins';
+@import './_abstracts/placeholders';
+
+// base
+@import './_base/reset';
+@import './_base/typography';
+
+// components
+@import './_components/buttons';
+@import './_components/card';
+@import './_components/carousel';
+
+// layout
+@import './_layout/navigation';
+@import './_layout/grid';
+@import './_layout/header';
+@import './_layout/footer';
+@import './_layout/sidebar';
+@import './_layout/forms';
+
+// pages
+@import './_pages/home';
+
+// themes
+@import './_themes/theme';
+
+// vendors
+// @import './_vendors/bootstrap';

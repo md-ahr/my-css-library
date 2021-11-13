@@ -1,0 +1,21 @@
+{
+  "name": "my-css-library",
+  "version": "1.0.0",
+  "description": "A basic custom css library using sass",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch"
+  },
+  "keywords": ["css", "library", "web"],
+  "author": "Abdul Halim",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "mini-css-extract-plugin": "^2.4.4",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
